@@ -54,7 +54,7 @@ if [ -n "$SSH_CONNECTION" ] && [ -n "$SSH_TTY" ]; then
 fi
 ```
 
-2. Problems Encountered:
+Problems Encountered:
 
 - Initial PS1 overrides color prompt
 - Some leftover session variable caused incorrect prompt
@@ -70,25 +70,23 @@ sudo chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 docker compose version
 ```
 
-2. Docker Compose Issue:
+Docker Compose Issue:
 
 - `docker compose` unkown command
 - Ubuntu package `docker-compose` old (v.1.19.2)
 
-3. Add user to Docker group:
+2. Add user to Docker group:
 
 ```bash
 sudo usermod -aG docker $USER
 newgrp docker
 ```
 
-4. Tested docker
+3. Tested docker
 
 ```bash
 docker run hello-world
 ```
-
-## Problems & Fixes
 
 ## Problems & Fixes
 
