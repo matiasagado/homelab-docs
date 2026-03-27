@@ -11,5 +11,5 @@ Primary development and homelab machine.
 
 ## Docs
 
-- [Linux Installation](docs/linux-installation.md)
+- [Linux Installation](docs/linux-install.md)
 - [Docker Setup](docs/docker-setup.md)
