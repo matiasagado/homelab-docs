@@ -1,17 +1,23 @@
 # Personal Homelab Portfolio
 
-This repository documents my personal homelab journey — starting with a Dell XPS 15 laptop.
+Documentation for my personal homelab build.
+Currently running on a Dell XPS 15 9510.
+Building toward a multi-node server rack environment.
 
-## Current Setup
+## Hardware
 
-- **Dell XPS:** Ubuntu 24.04 LTS, git, Docker installed
+| Machine          | Status  |
+| ---------------- | ------- |
+| Dell XPS 15 9510 | Active  |
+| Server Rack      | Planned |
 
-## Roadmap
+## Goals
 
-- [x] Install Ubuntu on Dell XPS
+- Deploy and scale production-grade systems on self-owned infrastructure
+- Simulate multi-node environments for distributed system development
+- Build toward a full server rack setup
 
-## Links
+## Structure
 
-- [Dell XPS Docs](dell-xps/docs)
-- [Diagrams](diagrams/)
-- [Scripts](dell-xps/scripts/)
+- `dell-xps/` — current active machine
+- `server-rack/` — planned future hardware
